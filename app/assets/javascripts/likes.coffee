@@ -15,4 +15,4 @@ $(document).on "turbolinks:load", ->
     $('.like_count_' + e.target.id).html(count - 1)
 
   $('body').on 'ajax:error', '.unlike', (e, data, status, xhr) ->
-    Materialize.toast('Problem in unlike post', 4000, 'red'
+    Materialize.toast('Problem in unlike post', 4000, 'red')
